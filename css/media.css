@@ -1,0 +1,182 @@
+@media screen and (max-width: 1170px) {
+    .card{
+        max-width: 333px;
+        margin-bottom: 37px;
+    }
+
+    .bedroom-wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .bedroom-left{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .repair{
+        background-image: none;
+        background-color: #FFF0E9;
+        padding: 74px 0;
+    }
+
+    .repair-text-block{
+        margin-left: 0;
+    }
+
+    .our-services{
+        background: none;
+        margin-bottom: 54px;
+    }
+
+    .our-services-wrapper{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .our-services-left-text{
+        margin: 0 auto;
+    }
+
+    .our-services-list{
+        border: 0;
+        color: #BD7048;
+    }
+
+    .btns{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .row .phone{
+        display: none;
+    }
+
+    .hero{
+        padding: 46px 0 73px;
+    }
+
+    .hero h1{
+        margin-bottom: 53px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h1{
+        font-size: 30px;
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .name-of-team{
+        font-size: 20px;
+        margin-bottom: 15px;
+        line-height: 24px;
+    }
+
+    .bedroom-header{
+        font-size: 25px;
+        margin-bottom: 33px;
+        line-height: 30px;
+    }
+
+    .bedroom-left{
+        max-width: 100%;
+    }
+
+    .bedroom-left p{
+        margin-bottom: 71px;
+    }
+
+    .our-services-header{
+        font-size: 30px;
+    }
+
+    .hero{
+        text-align: left;
+    }
+
+    .our-services-left-header{
+        font-size: 25px;
+    }
+
+    .our-services-wrapper{
+        text-align: left;
+    }
+
+    .our-services-left-text p{
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(38, 38, 38, 0.7);
+    }
+
+    .our-services-list{
+        font-size: 15px;
+        line-height: 18px;
+        color: #262626;
+    }
+
+    .btns{
+        display: block;
+    }
+
+    .btns a{
+        margin-left: 0;
+        margin-top: 34px;
+    }
+
+    .additional-services-header{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .footer-wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-wrapper .phone{
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main-nav ul{
+        display: block;
+        padding: 12px 0;
+    }
+
+    .main-nav li{
+        padding: 6px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .main-nav li:last-child{
+        border: 0;
+    }
+        
+    .nav-btn{
+        display: block;
+    }
+    
+    .nav-hidden{
+        height: 0;
+    }
+
+
+    .bedroom-wrapper img{
+        height: auto;
+    }
+}
